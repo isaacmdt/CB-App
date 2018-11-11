@@ -1,0 +1,18 @@
+.nav {
+  float: right;
+}
+.nav ul {
+  display: inline;
+  color: white;
+  list-style: none;
+}
+
+.nav li {
+  margin-left: 1rem;
+  float: right;
+}
+
+a:visited,
+a {
+  color: white;
+}
