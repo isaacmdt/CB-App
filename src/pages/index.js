@@ -7,7 +7,7 @@ const IndexPage = ({ data }) => {
   var numCount = null
 
   var now = new Date()
-  var countTo = new Date('nov,9,2018,08:55:00')
+  var countTo = new Date('nov,9,2018,00:00:00')
   var difference = now - countTo
   numCount = Math.floor((difference / (60 * 60 * 1000 * 24)) * 1)
 
