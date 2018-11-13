@@ -4,7 +4,13 @@ import Layout from '../components/layout'
 import DailyDoodle from '../components/dailydoodle'
 
 const IndexPage = ({ data }) => {
-  console.log(data.allDataYaml.edges)
+  var numCount = null
+
+  var now = new Date()
+  var countTo = new Date('nov,9,2018,08:55:00')
+  var difference = now - countTo
+  numCount = Math.floor((difference / (60 * 60 * 1000 * 24)) * 1)
+
   return (
     <Layout>
       <div
@@ -14,8 +20,7 @@ const IndexPage = ({ data }) => {
           marginRight: 'auto',
         }}
       >
-        {/*<p>{data.allDataYaml.edges.node.words.map(,1)}</p>*/}
-        <DailyDoodle word={'Cheese'} />
+        <DailyDoodle word={data.allWordsYaml.edges[numCount].node.word} />
       </div>
     </Layout>
   )
@@ -25,12 +30,10 @@ export default IndexPage
 
 export const query = graphql`
   query WordsQuery {
-    allDataYaml {
+    allWordsYaml {
       edges {
         node {
-          words {
-            word
-          }
+          word
         }
       }
     }

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styles from './header.module.css'
+import { Helmet } from 'react-helmet'
 
 const Header = ({ siteTitle }) => (
   <div
@@ -9,6 +10,11 @@ const Header = ({ siteTitle }) => (
       marginBottom: '1.45rem',
     }}
   >
+    <Helmet>
+      <meta charSet="utf-8" />
+      <title>My Title</title>
+      <link rel="canonical" href="http://mysite.com/example" />
+    </Helmet>
     <div
       style={{
         margin: '0 auto',
