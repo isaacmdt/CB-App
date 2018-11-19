@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
       <meta charSet="utf-8" />
       <title>Creative Box</title>
       <link rel="canonical" href="http://mysite.com/example" />
-      <link rel="apple-touch-icon" href="/icon-512x512.png" />
+      <link rel="apple-touch-icon" href="/icons/icon-512x512.png" />
     </Helmet>
     <div
       style={{
