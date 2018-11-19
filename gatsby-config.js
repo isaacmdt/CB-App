@@ -1,19 +1,19 @@
 module.exports = {
   siteMetadata: {
-    title: 'Daily Doodle',
+    title: 'Creative Box',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Daily Doodle App',
-        short_name: 'Daily Doodle',
+        name: 'Creative Box App',
+        short_name: 'CreativeBox',
         start_url: '/',
         background_color: '#ff3333',
         theme_color: '#121212',
         display: 'minimal-ui',
-        icon: 'src/images/ddicon.png', //This path is relative to the root of the site.
+        icon: 'src/images/cbicon.png', //This path is relative to the root of the site.
       },
     },
     {

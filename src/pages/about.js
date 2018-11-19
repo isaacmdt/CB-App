@@ -13,7 +13,7 @@ const SecondPage = () => (
       }}
     >
       <h1>Hello!</h1>
-      <p>Thank you for using Dailiy Doodle.</p>
+      <p>Thank you for using Creative Box.</p>
     </div>
   </Layout>
 )

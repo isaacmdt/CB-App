@@ -12,8 +12,9 @@ const Header = ({ siteTitle }) => (
   >
     <Helmet>
       <meta charSet="utf-8" />
-      <title>My Title</title>
+      <title>Creative Box</title>
       <link rel="canonical" href="http://mysite.com/example" />
+      <link rel="apple-touch-icon" href="/icon-512x512.png" />
     </Helmet>
     <div
       style={{
@@ -39,7 +40,7 @@ const Header = ({ siteTitle }) => (
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/pastdoodles">Past Doodles</Link>
+            <Link to="/pastBoxes">Old Boxes</Link>
           </li>
         </ul>
       </div>
