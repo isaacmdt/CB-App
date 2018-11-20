@@ -12,7 +12,7 @@ const Header = ({ siteTitle }) => (
   >
     <Helmet>
       <meta charSet="utf-8" />
-      <meta name="apple-mobile-web-app-capable" content="yes">
+      <meta name="apple-mobile-web-app-capable" content="yes" />
       <title>Creative Box</title>
       <link rel="canonical" href="http://mysite.com/example" />
       <link rel="apple-touch-icon" href="/icons/icon-512x512.png" />
