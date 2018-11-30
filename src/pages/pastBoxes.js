@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
-import styles from './pastboxes.module.css'
+import styles from './pastBoxes.module.css'
 
 const PastWord = ({ data }) => {
   var numCount = null
