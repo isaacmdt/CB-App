@@ -9,7 +9,11 @@ const LanuchInfo = props => {
         <p>
           Follow us on Instagram
           <br />
-          <a href="https://www.instagram.com/creativebox.app/" target="_blank">
+          <a
+            href="https://www.instagram.com/creativebox.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             creativebox.app
           </a>
         </p>
