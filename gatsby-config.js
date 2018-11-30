@@ -12,8 +12,8 @@ module.exports = {
         start_url: '/',
         background_color: '#ff3333',
         theme_color: '#121212',
-        display: 'standalone',
         icon: 'src/images/cbicon.png', //This path is relative to the root of the site.
+        display: 'standalone',
       },
     },
     {
