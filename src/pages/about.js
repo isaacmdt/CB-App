@@ -28,7 +28,11 @@ const SecondPage = () => (
       </p>
       <p>
         If you posted it here tag{' '}
-        <a href="https://www.instagram.com/creativebox.app/" target="_blank">
+        <a
+          href="https://www.instagram.com/creativebox.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           @creativebox.app
         </a>{' '}
         on IG and use the hashtag #mycreativebox
@@ -38,14 +42,18 @@ const SecondPage = () => (
       <p>
         You can help supoport this project and other creative videos by becoming
         a{' '}
-        <a href="" target="_blank">
+        <a href="#" target="_blank" rel="noopener noreferrer">
           CreativeBox patreon.
         </a>
       </p>
       <h3>Roadmap</h3>
       <p>
         Check out upcoming and feature requests on our{' '}
-        <a href="https://trello.com/b/V18qg8Ei" target="_blank">
+        <a
+          href="https://trello.com/b/V18qg8Ei"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Trello Board
         </a>
       </p>
