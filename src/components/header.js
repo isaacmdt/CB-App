@@ -41,7 +41,7 @@ const Header = ({ siteTitle }) => (
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/pastBoxes">Old Boxes</Link>
+            <Link to="/pastboxes">Old Boxes</Link>
           </li>
         </ul>
       </div>

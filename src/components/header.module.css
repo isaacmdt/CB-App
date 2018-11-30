@@ -12,7 +12,9 @@
   float: right;
 }
 
-a:visited,
-a {
+.nav a {
+  text-decoration: none;
+}
+.nav a:visited {
   color: white;
 }

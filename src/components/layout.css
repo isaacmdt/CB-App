@@ -38,13 +38,11 @@ template {
   display: none;
 }
 a {
+  color: #459e8c;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  text-decoration: none;
 }
-a:visited {
-  color: inherit;
-}
+
 a:active,
 a:hover {
   outline-width: 0;

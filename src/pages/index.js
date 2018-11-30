@@ -5,11 +5,21 @@ import DailyBox from '../components/dailybox'
 
 const IndexPage = ({ data }) => {
   var numCount = null
+  var word = null
 
   var now = new Date()
-  var countTo = new Date('Nov,26,2018,00:00:00')
+  var countTo = new Date('Jan,01,2019,00:00:00')
   var difference = now - countTo
   numCount = Math.floor((difference / (60 * 60 * 1000 * 24)) * 1)
+
+  if (numCount < 0) {
+    word = '2019'
+  } else if (numCount > data.allWordsYaml.edges.length) {
+    word = 'Say What! We Ran out of words!'
+  } else {
+    word = data.allWordsYaml.edges[numCount].node.word
+  }
+
   return (
     <Layout>
       <div
@@ -19,7 +29,7 @@ const IndexPage = ({ data }) => {
           marginRight: 'auto',
         }}
       >
-        <DailyBox box={data.allWordsYaml.edges[numCount].node.word} />
+        <DailyBox box={word} />
       </div>
     </Layout>
   )
