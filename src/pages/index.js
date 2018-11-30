@@ -10,8 +10,6 @@ const IndexPage = ({ data }) => {
   var countTo = new Date('Nov,26,2018,00:00:00')
   var difference = now - countTo
   numCount = Math.floor((difference / (60 * 60 * 1000 * 24)) * 1)
-  console.log(data.allWordsYaml.edges)
-  console.log(numCount)
   return (
     <Layout>
       <div
