@@ -23,14 +23,8 @@ const Header = ({ siteTitle }) => (
         padding: '1.45rem 1.0875rem',
       }}
     >
-      <h1 style={{ margin: 0, display: 'inline', fontSize: '1.5rem' }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
+      <h1 className={styles.siteHeader}>
+        <Link to="/" className={styles.siteHeaderLink}>
           {siteTitle}
         </Link>
       </h1>
@@ -40,7 +34,10 @@ const Header = ({ siteTitle }) => (
             <Link to="/about">About</Link>
           </li>
           <li>
-            <Link to="/pastboxes">Old Boxes</Link>
+            <Link to="/blog">Blog</Link>
+          </li>
+          <li>
+            <Link to="/pastBoxes">Old Boxes</Link>
           </li>
         </ul>
       </div>
