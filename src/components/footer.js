@@ -5,14 +5,19 @@ import styles from './footer.module.css'
 import icArchive from '../images/icArchiveBoxes.png'
 import icBlog from '../images/icBlog.png'
 import icAbout from '../images/icAbout.png'
+import icHome from '../images/icHome.png'
 
 const Footer = () => (
   <div className={styles.footerNavWrapper} style={{}}>
     <div className={styles.footerNav}>
+      <Link to="/">
+        <img src={icHome} alt="Go Home" className={styles.icons} />
+        <span className={styles.subtext}>Home</span>
+      </Link>
       <Link to="/pastBoxes">
         <img
           src={icArchive}
-          alt="Got to Past Box Archives"
+          alt="Go to Box Archives"
           className={styles.icons}
         />
         <span className={styles.subtext}>Old Boxes</span>
@@ -24,7 +29,7 @@ const Footer = () => (
       </Link>
 
       <Link to="/about">
-        <img src={icAbout} alt="Got to About Page" className={styles.icons} />
+        <img src={icAbout} alt="Go to About Page" className={styles.icons} />
         <span className={styles.subtext}>About</span>
       </Link>
     </div>

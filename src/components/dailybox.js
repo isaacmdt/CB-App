@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './dailybox.module.css'
+import icIG from '../images/icIG.png'
 
 const LanuchInfo = props => {
   if (props.box === '2019') {
@@ -14,7 +15,7 @@ const LanuchInfo = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            creativebox.app
+            <img src={icIG} style={{ height: '14px' }} /> creativebox.app
           </a>
         </p>
       </div>
