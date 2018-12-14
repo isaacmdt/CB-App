@@ -38,7 +38,16 @@ const Layout = ({ children }) => (
             paddingTop: 0,
           }}
         >
-          {children}
+          <div
+            style={{
+              maxWidth: '500px',
+              marginBottom: '1.45rem',
+              marginLeft: 'auto',
+              marginRight: 'auto',
+            }}
+          >
+            {children}
+          </div>
         </div>
         <Footer />
       </>

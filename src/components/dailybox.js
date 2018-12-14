@@ -15,7 +15,12 @@ const LanuchInfo = props => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={icIG} style={{ height: '14px' }} /> creativebox.app
+            <img
+              src={icIG}
+              style={{ height: '14px' }}
+              alt="Instagram glyph icon"
+            />{' '}
+            creativebox.app
           </a>
         </p>
       </div>

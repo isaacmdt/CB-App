@@ -4,14 +4,7 @@ import Layout from '../components/layout'
 
 const About = () => (
   <Layout>
-    <div
-      style={{
-        maxWidth: '500px',
-        marginBottom: '1.45rem',
-        marginLeft: 'auto',
-        marginRight: 'auto',
-      }}
-    >
+    <div>
       <h1>Hello!</h1>
       <p>Thank you for using CreativeBox.</p>
       <h2>How to use CreativeBox</h2>
@@ -42,7 +35,7 @@ const About = () => (
       <p>
         You can help supoport this project and other creative videos by becoming
         a{' '}
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="/" target="_blank" rel="noopener noreferrer">
           CreativeBox patreon.
         </a>
       </p>
