@@ -1,0 +1,32 @@
+.formButton {
+  max-width: 200px;
+  width: 100%;
+  padding: 8px 24px;
+  background-color: #459e8c;
+  border: none;
+  border-radius: 7px;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 8px;
+}
+
+.ideaForm input,
+.ideaForm select {
+  padding: 8px 16px;
+  background-color: #ebebeb;
+  border: none;
+  border-radius: 4px;
+  max-width: 200px;
+  width: 100%;
+  text-align: center;
+}
+
+@media (max-width: 415px) {
+  .formButton,
+  .ideaForm input,
+  .ideaForm select {
+    max-width: none;
+  }
+}
