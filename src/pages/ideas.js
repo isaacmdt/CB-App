@@ -10,13 +10,12 @@ const Ideas = () => (
       <h3>Do you have a word to put into the list?</h3>
       <form
         className={styles.ideaForm}
-        name="CBideas"
+        name="CB Ideas"
         method="POST"
-        data-netlify-recaptcha="true"
         data-netlify="true"
         netlify
       >
-        <input type="hidden" name="form-name" value="CBideas" />
+        <input type="hidden" name="form-name" value="CB Ideas" />
         <p>
           <label>
             <input
