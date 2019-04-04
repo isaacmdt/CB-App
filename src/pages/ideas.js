@@ -15,7 +15,7 @@ const Ideas = () => (
         data-netlify-recaptcha="true"
         data-netlify="true"
       >
-        <input type="hidden" name="CBideas" value="contact" />
+        <input type="hidden" name="form-name" value="CBideas" />
         <p>
           <label>
             <input
@@ -41,7 +41,7 @@ const Ideas = () => (
             <input
               type="text"
               name="wordIdea"
-              placeholder="Your creativeBox idea!"
+              placeholder="CreativeBox idea!"
             />
           </label>
         </p>
