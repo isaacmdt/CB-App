@@ -14,6 +14,7 @@ const Ideas = () => (
         method="POST"
         data-netlify="true"
         netlify
+        data-netlify-recaptcha="true"
       >
         <input type="hidden" name="form-name" value="CB Ideas" />
         <p>
@@ -45,6 +46,7 @@ const Ideas = () => (
             />
           </label>
         </p>
+        <div data-netlify-recaptcha="true" />
         <p>
           <button className={styles.formButton} type="submit">
             Send
