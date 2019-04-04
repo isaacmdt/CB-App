@@ -14,6 +14,7 @@ const Ideas = () => (
         method="POST"
         data-netlify-recaptcha="true"
         data-netlify="true"
+        netlify
       >
         <input type="hidden" name="form-name" value="CBideas" />
         <p>
