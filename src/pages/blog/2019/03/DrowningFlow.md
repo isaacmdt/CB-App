@@ -15,3 +15,6 @@ This year my theme is "Commit". Figuring out ways to better commit to the things
 Since it's easier to move the needle of my habits with small changes other than go full crazy. One idea I have is to bump up the deadlines to all my projects internally on in my personal calendar by a few days. Since I know I get in gear when the deadline is looming closer. The hope is that this will give me the time needed to finesse my projects after the new deadline. And will give me buffer. Or it might not help at all.
 
 Most of the goal is to not have the amount of pressing deadline urgency pile up to the point when it's crippling. Where the mountain of tasks to do is so big I don't event know where to start. How to get out of the hole I've dug my self into. Maybe if I can stay a head of the mountain, when the rapids come I can learn to find joy in them instead of drowning.
+
+-
+@isaacmdt

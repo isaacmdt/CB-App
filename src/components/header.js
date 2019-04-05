@@ -21,6 +21,17 @@ const GetLocation = () => (
             />
           </Link>
         )
+      } else if (location.pathname.includes('/ideas')) {
+        return (
+          <Link to="/">
+            <img
+              className={styles.backBTN}
+              src={icBack}
+              style={{ height: '24px' }}
+              alt="back button"
+            />
+          </Link>
+        )
       }
     }}
   </Location>
@@ -56,13 +67,13 @@ const Header = ({ siteTitle }) => {
         <div className={styles.nav}>
           <ul>
             <li>
+              <Link to="/ideas">Ideas</Link>
+            </li>
+            <li>
               <Link to="/about">About</Link>
             </li>
             <li>
               <Link to="/blog">Blog</Link>
-            </li>
-            <li>
-              <Link to="/pastBoxes">Old Boxes</Link>
             </li>
           </ul>
         </div>
