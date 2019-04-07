@@ -16,6 +16,7 @@ const Ideas = () => (
           data-netlify="true"
           netlify
           data-netlify-recaptcha="true"
+          action="/thankyou"
         >
           <input type="hidden" name="form-name" value="CB Ideas" />
           <p>
@@ -23,16 +24,20 @@ const Ideas = () => (
               <input
                 type="text"
                 name="eHandle"
-                placeholder="@socialhandle"
+                placeholder="@socialhandle or Name"
                 require
               />
             </label>
           </p>
           <p>
             <label>
-              <select name="channel">
+              <select name="channel" required>
+                <option value="Name" disabled selected>
+                  Links to...
+                </option>
                 <option value="Instagram">Instagram</option>
                 <option value="Twitter">Twitter</option>
+                <option value="Name">Name</option>
               </select>
             </label>
           </p>
@@ -44,6 +49,7 @@ const Ideas = () => (
                 type="text"
                 name="wordIdea"
                 placeholder="CreativeBox idea!"
+                required
               />
             </label>
           </p>
