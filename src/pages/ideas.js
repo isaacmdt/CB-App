@@ -25,13 +25,12 @@ const Ideas = () => (
                 type="text"
                 name="eHandle"
                 placeholder="@socialhandle or Name"
-                require
               />
             </label>
           </p>
           <p>
             <label>
-              <select name="channel" required>
+              <select name="channel">
                 <option value="Name" disabled selected>
                   Links to...
                 </option>
