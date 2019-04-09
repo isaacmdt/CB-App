@@ -35,7 +35,11 @@ const About = () => (
       <p>
         You can help supoport this project and other creative videos by becoming
         a{' '}
-        <a href="/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://www.patreon.com/creativebox"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           CreativeBox patreon.
         </a>
       </p>
