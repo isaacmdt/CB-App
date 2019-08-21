@@ -1,6 +1,6 @@
 ---
-path: '/blog/2019/04/ItsJustABox'
-title: 'It's Just a Box'
+path: '/blog/2019/08/JustABox'
+title: 'Just a Box'
 date: '2019-08-21'
 ---
 
